@@ -1,0 +1,90 @@
+"Resource/UI/HudAccountPanel.res"
+{
+	"CHudAccountPanel"
+	{
+		"delta_item_x"			"48"
+		"delta_item_start_y"	"-2"
+		"delta_item_end_y"		"8"
+		"PositiveColor"			"105 205 255 255"
+		"NegativeColor"			"sbbgr"
+		"delta_lifetime"		"2"
+		"delta_item_font"		"droidN16"
+	}
+	
+	"AccountBG"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"AccountBG"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"42"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"40 40 40 225"
+		"PaintBackgroundType"		"0"
+		"TextInsetX"				"999999"
+	}
+	
+	"MetalIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"9999"
+		"ypos"			"8"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"255 255 255 255"
+	}
+	
+	"AccountValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValue"
+		"xpos"			"0"
+		"ypos"			"0"
+
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Code24"
+		"fgcolor_override"		"230 230 230 255"
+	}
+	"AccountValue2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValue2"
+		"xpos"			"1"
+		"ypos"			"1"
+
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Code24"
+		"fgcolor_override"		"black"
+	}
+}

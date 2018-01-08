@@ -1,0 +1,3 @@
+Place in a seperate folder inside tf/custom
+
+Currently only supports 16:9 resulotions. Old stuff in custom. Includes old target id, freezepanel, and health without the cross.
