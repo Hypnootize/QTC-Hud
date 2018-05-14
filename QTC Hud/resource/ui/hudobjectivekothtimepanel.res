@@ -34,7 +34,7 @@
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"code24"
 			"fgcolor"		"255 255 255 255"
@@ -42,12 +42,10 @@
 			"ypos"			"8"
 			"zpos"			"3"
 			"wide"			"55"
-			"wide_nope"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
@@ -71,7 +69,7 @@
 		
 		if_match
 		{
-			"xpos"			"9999"
+			"xpos"		"9999"
 		}
 	}
 	"TimePanelBGblue"
@@ -85,11 +83,11 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"replay/thumbnails/bg_red"
+		"image"			"replay/thumbnails/bg_red"
 		
 		if_match
 		{
-			"xpos"			"9999"
+			"xpos"		"9999"
 		}
 	}
 	
@@ -98,9 +96,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"90"
-		"xpos_nope"			"70"
 		"ypos"				"0"
-		"ypos_nope"			"-14"
 		"zpos"				"12"
 		"wide"				"100"
 		"tall"				"150"
@@ -116,24 +112,24 @@
 		
 		if_match
 		{
-			"xpos"				"65"
+			"xpos"				"67"
+			"ypos"				"-1"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"code24"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"23"
 			"ypos"			"4"
-			"ypos_nope"	"6"
 			"zpos"			"3"
 			"wide"			"55"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
@@ -165,12 +161,13 @@
 		
 		if_match
 		{
-			"xpos"				"35"
+			"xpos"				"33"
+			"ypos"				"-1"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"code24"
 			"fgcolor"		"255 255 255 255"
@@ -181,12 +178,12 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"code12"
+				"font"		"code12"
 			}
 		}	
 	}
@@ -203,5 +200,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"255 255 255 255"
+		
+		if_match
+		{
+			"wide"				"0"
+		}
 	}
 }

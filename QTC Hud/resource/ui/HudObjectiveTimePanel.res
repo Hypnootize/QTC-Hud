@@ -15,8 +15,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelBG2"
@@ -44,8 +43,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -56,11 +54,8 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
-		"wide_lodef"		"25"
 		"tall"				"20"
-		"tall_lodef"		"25"	
 		"visible"			"0"
-		"visible_nope"	"0"
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -71,8 +66,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"WaitingForPlayersLabel"
@@ -96,8 +90,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -106,12 +99,9 @@
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_nope"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -119,15 +109,14 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-			"xpos"			"25"
+		"xpos"			"25"
 		"ypos"			"32"
 		"zpos"			"5"
 		"wide"			"50"
@@ -144,8 +133,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -154,12 +142,9 @@
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_nope"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -167,8 +152,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"SuddenDeathLabel"
@@ -177,8 +161,6 @@
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"25"
 		"ypos"			"33"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"19"
@@ -193,8 +175,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -203,12 +184,9 @@
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_nope"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -216,8 +194,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupLabel"
@@ -241,8 +218,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -251,12 +227,9 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_nope"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -264,24 +237,19 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"9999"
-		"ypos"			"40"
+		"xpos"			"25"
+		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"50"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
@@ -292,8 +260,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			
 		}
 	}	
 	"ServerTimeLimitLabelBG"
@@ -303,12 +270,9 @@
 		"xpos"			"9999"	[$WIN32]
 		"xpos"			"9999"	[$X360]
 		"ypos"			"9999"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
-		"tall_nope"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -316,8 +280,7 @@
 		
 		if_match
 		{
-			"xpos"	"9999"
-			"wide"	"0"
+			"xpos"			"9999"
 		}
 	}	
 }
