@@ -68,8 +68,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"MainBG2Overlay"
@@ -94,8 +93,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"specbg"
@@ -121,8 +119,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"TopBG"
@@ -145,8 +142,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}	
 	"TopBG2"
@@ -169,8 +165,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"TopBG3"
@@ -194,8 +189,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"bluescorebg"
@@ -218,8 +212,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"redscorebg"
@@ -242,8 +235,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
-			"tall"			"0"
+			"visible"		"0"
 		}
 	}
 	"BlueTeamLabel"
@@ -630,11 +622,8 @@
 
 		if_mvm
 		{
-			"font"			"code10"
-			"xpos"			"c115"
-			"ypos"			"r132"
-			"wide"			"178"
-		}	
+			"visible"		"0"
+		}
 	}
 	
     "LocalBG"
@@ -651,6 +640,11 @@
         "enabled"       "0" 
         "fillcolor"     "0 0 0 130"
         "PaintBackgroundType"   "0"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
     }
     "ClassImage"
     {
@@ -907,8 +901,7 @@
 
 		if_mvm
 		{
-			"ypos"		"-16"
-			"xpos"		"0"
+			"wide"		"0"
 		}
 
 		"KillsLabel"
@@ -1906,8 +1899,8 @@
     {
         "ControlName"       "CTFHudMannVsMachineScoreboard"
         "fieldName"         "MvMScoreboard"
-        "xpos"              "0"
-        "ypos"              "0"
+        "xpos"              "c-300"
+        "ypos"              "100"
         "zpos"              "10"
         "wide"              "f0"
         "tall"              "480"

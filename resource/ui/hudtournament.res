@@ -731,7 +731,7 @@
 			"ypos"			"106"
 			"wide"			"190"
 			"tall"			"12"
-			"visible"		"1"
+			"visible"		"0"
 			"fgcolor"		"Black"
 		}
 	}
